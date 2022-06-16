@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+.image-wrapper {
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+@media all and (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 360px) {
+    img {
+        width: 100%;
+        padding-left: 0px;
+        border-left: 0px;
+        margin-left: 0px;
+    }
+}
